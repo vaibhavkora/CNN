@@ -10,7 +10,7 @@ The CIFAR-10 dataset, included in TensorFlow’s `keras.datasets`, consists of:
 - **Classes**: 10 categories (airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck) ✈️🚗🐦
 - **Pixel Values**: Normalized to [0, 1] for model training 🎨
 
-The dataset is automatically loaded using `datasets.cifar10.load_data()` in the notebook. 📥
+The notebook automatically loads the dataset using `datasets.cifar10.load_data()`. 📥
 
 ## 🛠️ Project Structure
 The notebook (`CNN.ipynb`) is organized into the following steps:
@@ -47,12 +47,6 @@ Note: The notebook does not include the CNN model architecture or training steps
 - Matplotlib 📊
 - NumPy (included with TensorFlow) 🔢
 
-## ⚙️ Installation
-### Clone the repository:
-```bash
-git clone https://github.com/vaibhavkora/cifar10-cnn-classification.git
-pip install tensorflow matplotlib
-```
 ## 🚀 Usage
 - **Run the Notebook**: Execute cells to load data, visualize images, and evaluate the model ▶️  
 - **Explore Data**: View the **5x5 grid** of sample images to understand the dataset 👀  
