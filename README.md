@@ -50,11 +50,11 @@ Note: The notebook does not include the CNN model architecture or training steps
 ## ⚙️ Installation
 ### Clone the repository:
 ```bash
-git clone https://github.com/your-username/cifar10-cnn-classification.git
+git clone https://github.com/vaibhavkora/cifar10-cnn-classification.git
 pip install tensorflow matplotlib
 ```
 ## 🚀 Usage
-- **Run the Notebook**: Execute cells in order to load data, visualize images, and evaluate the model ▶️  
+- **Run the Notebook**: Execute cells to load data, visualize images, and evaluate the model ▶️  
 - **Explore Data**: View the **5x5 grid** of sample images to understand the dataset 👀  
 - **Evaluate Model**: Check the test accuracy (**0.7077 or 70.77%**) 📊  
 - **Extend**: Add model architecture, training steps, or hyperparameter tuning 🔧  
